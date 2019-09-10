@@ -12,11 +12,11 @@ import Foundation
 import AWSIoT
 
 struct MqttConstants {
-    static let endPoint          = "wss://a1pvqgswvgbwuy-ats.iot.eu-west-1.amazonaws.com/mqtt" // "wss:<IotEndpointATS>/mqtt
+    static let endPoint          = "wss://a1pvqgswwsbwvy-ats.iot.eu-west-1.amazonaws.com/mqtt" // "wss:<IotEndpointATS>/mqtt
     
-    static let IdentityPool      = "eu-west-1:9b8ab290-c620-412c-190c-27c6b443v3fd" // <IdentityPool>
+    static let IdentityPool      = "eu-west-1:9b8ca290-c620-452c-120c-77c6c442v6fd" // <IdentityPool>
     
-    static let UserPool          = "<eu-west-1_cHTQQN1lI>" // <UserPool>
+    static let UserPool          = "<eu-west-1_bHTWQN1lI>" // <UserPool>
     
     static let kMQTTMKey         = "MQTTManager" // change to any key as your like :)
     
