@@ -1,7 +1,7 @@
 # MqttCognitoWebSocektExample
 This is sample projec for Mqtt Cognito WebSocekt Example with custom AWSCredentialsProvider
 
-![MqttCognitoWebSocektExample-jpg](MqttCognitoWebSocektExample/blob/master/iotMqtt.jpg)
+![MqttCognitoWebSocektExample-jpg](https://github.com/ali-cs/MqttCognitoWebSocektExample/blob/master/iotMqtt.jpg)
 
 # MqttCognitoWebSocektExample
 
@@ -127,7 +127,7 @@ mqttNotificationRecieved is call back when any MQTT connection is recieved and y
         }
         
     }
-    ```
+```
 
 ## Authors
 
@@ -141,4 +141,3 @@ This project is licensed under the MIT License - see the [LICENSE.MIT](LICENSE.M
 ## Acknowledgments
 
 * Pull requests are warmly welcome as well.
-
