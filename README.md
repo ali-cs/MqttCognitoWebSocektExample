@@ -3,11 +3,14 @@ This is sample projec for Mqtt Cognito WebSocekt Example with custom AWSCredenti
 
 ![MqttCognitoWebSocektExample-jpg](https://github.com/ali-cs/MqttCognitoWebSocektExample/blob/master/iotMqtt.jpg)
 
-# MqttCognitoWebSocektExample
+# Complete Tutorial
 
-This is sample projec for Mqtt Cognito WebSocekt Example with custom AWSCredentialsProvider.
+I have write a complete post for establishing a communication with AWS IoT MQTT using custom AWSCredentialsProvider in iOS applicaiton. [MQTT iOS Application Connection with custom Authentication in Congnito Mode](https://medium.com/@ali.cs/mqtt-iot-connection-with-custom-authentication-in-congnito-mode-in-ios-application-d0518c310070)
+
 
 ## Getting Started
+
+First you need to add AWS SDK in your iOS project. It really easy using pod(s), pleae refer to [AWS Amplify documentation](https://aws-amplify.github.io/docs/). 
 
 Change your keys in ```MqttConstants.swift``` class.
 

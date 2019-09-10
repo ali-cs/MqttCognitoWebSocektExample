@@ -131,11 +131,15 @@ class ViewController: UIViewController {
         do {
             let publishDats = try JSONSerialization.data(withJSONObject: publishDataDictionary, options: [])
             let response = mqttConnection?.publishData(publishDats, onTopic: publishTopic, qoS: AWSIoTMQTTQoS.messageDeliveryAttemptedAtLeastOnce) ?? false
+            
+            //let response = mqttConnection?.publishString(publishDataDictionary.description, onTopic: publishTopic, qoS: AWSIoTMQTTQoS.messageDeliveryAttemptedAtLeastOnce)  ?? false
+
             print("mqtt publish toTopic -> ", publishTopic, " , response -> ", response)
         }
         catch {
             print("error converting dictionary into Data")
         }
+        
     }
     
 }
